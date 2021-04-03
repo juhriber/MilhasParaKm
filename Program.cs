@@ -7,7 +7,7 @@ namespace Pasta_Visual
         static void Main(string[] args)
         {
             double milhas;
-            double km = 1.609;
+            const double km = 1.609;
 
             Console.WriteLine("Digite Seu Valor em Milhas: ");
             milhas = double.Parse(Console.ReadLine());
